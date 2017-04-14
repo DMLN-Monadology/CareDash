@@ -1,0 +1,45 @@
+create a doctor
+POST to:
+http://localhost:3000/doctors
+
+
+Add a review to a doctor x2
+Post to:
+http://localhost:3000/doctors/1/reviews
+
+
+List all doctors and their reviews
+GET to:
+http://localhost:3000/doctors
+
+
+List one doctor and his/her reviews
+GET to:
+http://localhost:3000/doctors/1
+
+Delete a review from a doctor
+DELETE to:
+http://localhost:3000/doctors/1/reviews/2
+
+delete a Doctor
+DELETE to:
+http://localhost:3000/doctors/1
+
+
+
+
+Doctor.create!(name: "Reich", password: "polkovodets", email: "kampf@gmail.com")
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
