@@ -37,11 +37,17 @@
   color: teal;
 }
 
+#DD1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+
 .HeaderDropDown {
   position: absolute;
   border: 1px solid grey;
   top: 50px;
-  left: 240px;
   border-radius: 5px;
   background: white;
   width: 200px;
@@ -62,11 +68,4 @@
 .HeaderDropDown li:hover {
   color: teal;
   cursor: pointer;
-}
-
-
-
-#DD1 {
-  display: flex;
-  justify-content: center;
 }
