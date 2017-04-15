@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application runs on Ruby/Rails + Postgres on the backend, and React on the frontend. Each are functional, although not connected. 
 
-Things you may want to cover:
+To compile for front-end, webpacking is needed. 
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
