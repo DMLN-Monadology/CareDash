@@ -1,0 +1,58 @@
+#Promos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+  min-width: 1150px;
+}
+
+#Promos h3 {
+  margin: 20px 0px;
+}
+
+#Promos ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+#Promos li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 30px;
+}
+
+#Promos h4 {
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0px;
+  color: teal;
+}
+
+#Promos p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: lighter;
+  margin: 10px 0px 20px 0px;
+  width: 250px;
+  color: grey;
+}
+
+.greenButton {
+  background: #709B00;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 120px;
+  height: 40px;
+  transition: background-color 0.5s ease;
+}
+
+.greenButton:hover {
+  background-color: #4AA631;
+  cursor: pointer;
+}

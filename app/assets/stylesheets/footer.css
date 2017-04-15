@@ -1,0 +1,45 @@
+#Footer {
+  border-top: 1px solid black;
+  padding: 5px;
+}
+
+#Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#Footer div {
+  margin: 20px 50px;
+}
+
+.verticalColumn h4 {
+  margin-bottom: 10px;
+}
+
+.verticalColumn a {
+  margin: 10px 0px;
+  font-size: 14px;
+  color: blue;
+  text-decoration: underline;
+}
+
+#SocialmediaInfo h4 {
+  margin-bottom: 10px;
+}
+
+#SocialmediaInfo ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#SocialmediaInfo li {
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}

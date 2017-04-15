@@ -27,7 +27,6 @@ http://localhost:3000/doctors/1
 
 
 
-
 Doctor.create!(name: "Reich", password: "polkovodets", email: "kampf@gmail.com")
 
 
